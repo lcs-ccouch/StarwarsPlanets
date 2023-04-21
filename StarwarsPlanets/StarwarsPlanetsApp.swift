@@ -11,7 +11,7 @@ import SwiftUI
 struct StarwarsPlanetsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PlanetView()
         }
     }
 }

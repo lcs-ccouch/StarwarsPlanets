@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		217C3F4529F22F4D00ED3120 /* StarwarsPlanetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C3F4429F22F4D00ED3120 /* StarwarsPlanetsApp.swift */; };
-		217C3F4729F22F4D00ED3120 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C3F4629F22F4D00ED3120 /* ContentView.swift */; };
 		217C3F4929F22F4F00ED3120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217C3F4829F22F4F00ED3120 /* Assets.xcassets */; };
 		217C3F4C29F22F4F00ED3120 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217C3F4B29F22F4F00ED3120 /* Preview Assets.xcassets */; };
+		217C3F5429F2307E00ED3120 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217C3F5329F2307E00ED3120 /* PlanetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		217C3F4129F22F4D00ED3120 /* StarwarsPlanets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarwarsPlanets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		217C3F4429F22F4D00ED3120 /* StarwarsPlanetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarwarsPlanetsApp.swift; sourceTree = "<group>"; };
-		217C3F4629F22F4D00ED3120 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		217C3F4829F22F4F00ED3120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217C3F4B29F22F4F00ED3120 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		217C3F5329F2307E00ED3120 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				217C3F4429F22F4D00ED3120 /* StarwarsPlanetsApp.swift */,
-				217C3F4629F22F4D00ED3120 /* ContentView.swift */,
+				217C3F5229F2305800ED3120 /* Views */,
 				217C3F4829F22F4F00ED3120 /* Assets.xcassets */,
 				217C3F4A29F22F4F00ED3120 /* Preview Content */,
 			);
@@ -65,6 +65,14 @@
 				217C3F4B29F22F4F00ED3120 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		217C3F5229F2305800ED3120 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				217C3F5329F2307E00ED3120 /* PlanetView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				217C3F4729F22F4D00ED3120 /* ContentView.swift in Sources */,
+				217C3F5429F2307E00ED3120 /* PlanetView.swift in Sources */,
 				217C3F4529F22F4D00ED3120 /* StarwarsPlanetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
